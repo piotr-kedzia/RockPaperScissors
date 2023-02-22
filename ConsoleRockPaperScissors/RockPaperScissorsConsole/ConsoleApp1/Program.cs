@@ -154,6 +154,7 @@ namespace RockPaperScissorsApp
             for (; ; )
             {
                 Console.Clear();
+                Console.WriteLine("       _______         \t         _______      \n _____/   ____)_____   \t     __/____    =_____\n        _/     ______) \t   (____| ) \n  ==      ____________)\t   (_____| )     ==\n ____   (_]___)        \t    (____| )   ______\n     -._(_]__)         \t     (___|)__/\n");
                 Console.WriteLine("Witaj w grze Kamień/Papier/Nożyce!\n--------------------------\nGra 2 osoba? czy z komputerem?\n1. Dwu osobowa\n2. Z komputerem ");
                 int sign = int.Parse(Console.ReadLine());
                 {
